@@ -2,6 +2,7 @@
   "name": "cryptoverse",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vamshi99145.github.io/cryptoverse",
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
     "@reduxjs/toolkit": "^1.6.1",
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm build run",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
